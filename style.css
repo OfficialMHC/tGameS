@@ -1,0 +1,49 @@
+.navbar-brand {
+    font-size: x-large;
+    font-style: unset;
+    font-weight: 700;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.navbar .nav-item {
+    padding-left: 1em;
+}
+.navbar .nav-item .nav-link {
+    font-size: medium;
+    font-style: unset;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-transform: uppercase;
+    font-weight: 600;
+    background-color: red;
+    color: white;
+}
+
+.navbar a:hover {
+    color: 3px solid black;
+  }
+  
+.navbar a.active {
+    border: 3px solid red;
+}
+
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    box-shadow: 0 0.3rem 0.5rem rgb(0, 0, 0);
+}
+
+#contact{
+    background-image: url(img/cbanner.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+}
+#footer-section {
+    background-color: black;
+}
+
+.ml3 {
+  font-weight: 900;
+  font-size: 3.5em;
+}
